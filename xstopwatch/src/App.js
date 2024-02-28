@@ -88,7 +88,7 @@ function App() {
   return (
     <div className="App">
       <h1>Stopwatch</h1>
-      <div className="time">Time : {formatTime(time)}</div>
+      <div className="time">Time: {formatTime(time)}</div>
       <div className="buttons">
         <button onClick={handleStartStop}>
           {isRunning ? 'Stop' : 'Start'}
